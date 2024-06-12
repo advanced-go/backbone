@@ -7,9 +7,9 @@ import (
 // All agents utilize: observations, guidance, and experience as input to inference -> to create actions
 // observations, guidance, experience -> inference -> actions
 
-// NewCaseOfficer - assigned to a region/zone/sub-zone, managing unique hosts. Case officer agent manages
+// NewCaseOfficerAgent - assigned to a region/zone/sub-zone, managing unique hosts. Case officer agent manages
 // host agents
-func NewCaseOfficer(uri string, assignment any, ctrlHandler messaging.Handler) (messaging.Agent, error) {
+func NewCaseOfficerAgent(uri string, assignment any, ctrlHandler messaging.Handler) (messaging.Agent, error) {
 	return nil, nil
 }
 
